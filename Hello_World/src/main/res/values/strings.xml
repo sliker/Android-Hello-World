@@ -4,5 +4,13 @@
     <string name="app_name">Hello_World</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="planet_name_label">Planet Name: </string>
+    <string name="planet_mass_label">Planet Mass: </string>
+    <string name="planet_gravity_label">Planet Gravity: </string>
+    <string name="planet_colonies_label">Planet Colonies: </string>
+    <string name="planet_population_label">Planet Population: </string>
+    <string name="planet_military_label">Planet Military: </string>
+    <string name="planet_bases_label">Planet Bases: </string>
+    <string name="planet_forcefield_label">Planet Forcefield: </string>
 
 </resources>

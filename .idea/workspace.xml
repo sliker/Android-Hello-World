@@ -12,8 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bf31764-29b8-414a-9f4b-bad27c74800f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello_World/src/main/java/com/davidvu/hello_world/MainActivity.java" afterPath="$PROJECT_DIR$/Hello_World/src/main/java/com/davidvu/hello_world/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello_World/src/main/java/com/davidvu/hello_world/WorldGen.java" afterPath="$PROJECT_DIR$/Hello_World/src/main/java/com/davidvu/hello_world/WorldGen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello_World/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Hello_World/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello_World/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Hello_World/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hello_World.iws" />
@@ -78,13 +78,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hello_World/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="41" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="330">
+            <state line="14" column="47" selection-start="667" selection-end="667" vertical-scroll-proportion="0.38602942" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
@@ -94,7 +94,9 @@
         <entry file="file://$PROJECT_DIR$/Hello_World/src/main/res/menu/main.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <folding />
+              <folding>
+                <element signature="e#132#157#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,17 +104,19 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hello_World/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="39" selection-start="80" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="210">
+            <state line="14" column="0" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hello_World/src/main/java/com/davidvu/hello_world/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="4" selection-start="811" selection-end="811" vertical-scroll-proportion="0.65905094" vertical-offset="0" max-vertical-offset="569">
-              <folding />
+            <state line="27" column="4" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,7 +124,7 @@
       <file leaf-file-name="WorldGen.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hello_World/src/main/java/com/davidvu/hello_world/WorldGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="30" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.0" vertical-offset="571" max-vertical-offset="1140">
+            <state line="67" column="30" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.0" vertical-offset="569" max-vertical-offset="1140">
               <folding />
             </state>
           </provider>
@@ -188,6 +192,8 @@
       <list>
         <option value="$PROJECT_DIR$/Hello_World/src/main/java/com/davidvu/hello_world/WorldGen.java" />
         <option value="$PROJECT_DIR$/Hello_World/src/main/java/com/davidvu/hello_world/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Hello_World/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/Hello_World/src/main/res/layout/activity_main.xml" />
       </list>
     </option>
   </component>
@@ -327,8 +333,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Android Application.Hello_World">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -499,7 +505,11 @@
       <created>1375473074924</created>
       <updated>1375473074924</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Métodos creados">
+      <created>1375727517548</created>
+      <updated>1375727517548</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -509,9 +519,10 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289183" sideWeight="0.67152464" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32847533" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847533" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -527,7 +538,6 @@
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -576,7 +586,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="Métodos creados" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -593,6 +603,7 @@
     <MESSAGE value="Segundo commit desde android studio" />
     <MESSAGE value="Yeah" />
     <MESSAGE value="Prueba" />
+    <MESSAGE value="Métodos creados" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -608,7 +619,9 @@
     <entry file="file://$PROJECT_DIR$/Hello_World/src/main/java/com/davidvu/hello_world/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="435">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -632,7 +645,9 @@
     <entry file="file://$PROJECT_DIR$/Hello_World/src/main/res/menu/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
+          <folding>
+            <element signature="e#132#157#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -646,7 +661,9 @@
     <entry file="file://$PROJECT_DIR$/Hello_World/src/main/java/com/davidvu/hello_world/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="435">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -663,7 +680,9 @@
     <entry file="file://$PROJECT_DIR$/Hello_World/src/main/res/menu/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
+          <folding>
+            <element signature="e#132#157#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -677,30 +696,24 @@
     <entry file="file://$PROJECT_DIR$/Hello_World/src/main/java/com/davidvu/hello_world/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hello_World/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="330">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hello_World/src/main/res/menu/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="862">
-          <folding />
+          <folding>
+            <element signature="e#132#157#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hello_World/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="80" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="14" column="0" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
@@ -714,7 +727,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hello_World/src/main/java/com/davidvu/hello_world/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="4" selection-start="811" selection-end="811" vertical-scroll-proportion="0.65905094" vertical-offset="0" max-vertical-offset="569">
+        <state line="27" column="4" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello_World/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="47" selection-start="667" selection-end="667" vertical-scroll-proportion="0.38602942" vertical-offset="0" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
