@@ -11,17 +11,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bf31764-29b8-414a-9f4b-bad27c74800f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hello_World/src/main/java/com/davidvu/hello_world/NewPlanet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hello_World/src/main/res/layout/activity_add.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hello_World/src/main/res/menu/new_planet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello_World/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Hello_World/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello_World/src/main/java/com/davidvu/hello_world/MainActivity.java" afterPath="$PROJECT_DIR$/Hello_World/src/main/java/com/davidvu/hello_world/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello_World/build/source/r/debug/com/davidvu/hello_world/R.java" afterPath="$PROJECT_DIR$/Hello_World/build/source/r/debug/com/davidvu/hello_world/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello_World/build/res/all/debug/menu/main.xml" afterPath="$PROJECT_DIR$/Hello_World/build/res/all/debug/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello_World/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/Hello_World/src/main/res/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello_World/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Hello_World/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hello_World/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Hello_World/build/res/all/debug/values/values.xml" />
+    <list default="true" id="5bf31764-29b8-414a-9f4b-bad27c74800f" name="Default" comment="Métodos creados">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hello_World.iws" />
@@ -116,7 +106,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hello_World/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="59" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.38283062" vertical-offset="0" max-vertical-offset="862">
+            <state line="28" column="0" selection-start="1504" selection-end="1504" vertical-scroll-proportion="0.48723897" vertical-offset="0" max-vertical-offset="862">
               <folding />
             </state>
           </provider>
@@ -662,7 +652,11 @@
       <created>1375727517548</created>
       <updated>1375727517548</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Métodos creados">
+      <created>1376332595457</created>
+      <updated>1376332595457</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -892,7 +886,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hello_World/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="59" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.38283062" vertical-offset="0" max-vertical-offset="862">
+        <state line="28" column="0" selection-start="1504" selection-end="1504" vertical-scroll-proportion="0.48723897" vertical-offset="0" max-vertical-offset="862">
           <folding />
         </state>
       </provider>

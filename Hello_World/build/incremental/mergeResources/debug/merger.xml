@@ -44,27 +44,37 @@
             <file
                 path="/Users/david.velasquez/AndroidStudioProjects/Hello_WorldProject/Hello_World/src/main/res/values/strings.xml"
                 qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="planet_bases_label" >Planet Bases: 
+                </string>
+                <string name="planet_gravity_label" >Planet Gravity: 
+                </string>
+                <string name="planet_military_label" >Planet Military: 
+                </string>
                 <string name="planet_colonies_label" >Planet Colonies: 
                 </string>
                 <string name="planet_mass_label" >Planet Mass: 
                 </string>
-                <string name="action_settings" >Settings
+                <string name="menu_config_planet" >Configure Planet
+                </string>
+                <string name="menu_add_planet" >Add a New Planet
                 </string>
                 <string name="planet_name_label" >Planet Name: 
-                </string>
-                <string name="planet_bases_label" >Planet Bases: 
                 </string>
                 <string name="planet_forcefield_label" >Planet Forcefield: 
                 </string>
                 <string name="app_name" >Hello_World
                 </string>
-                <string name="planet_population_label" >Planet Population: 
-                </string>
                 <string name="hello_world" >Hello world!
                 </string>
-                <string name="planet_gravity_label" >Planet Gravity: 
+                <string name="planet_population_label" >Planet Population: 
                 </string>
-                <string name="planet_military_label" >Planet Military: 
+                <string name="menu_home_planet" >Show Home Planet
+                </string>
+                <string name="menu_travel_planet" >Travel to Planet
+                </string>
+                <string name="menu_attack_planet" >Attack on Planet
                 </string>
             </file>
             <file
