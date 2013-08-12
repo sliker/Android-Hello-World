@@ -8,6 +8,11 @@
     <string name="action_settings">Settings</string>
     <string name="app_name">Hello_World</string>
     <string name="hello_world">Hello world!</string>
+    <string name="menu_add_planet">Add a New Planet</string>
+    <string name="menu_attack_planet">Attack on Planet</string>
+    <string name="menu_config_planet">Configure Planet</string>
+    <string name="menu_home_planet">Show Home Planet</string>
+    <string name="menu_travel_planet">Travel to Planet</string>
     <string name="planet_bases_label">Planet Bases: </string>
     <string name="planet_colonies_label">Planet Colonies: </string>
     <string name="planet_forcefield_label">Planet Forcefield: </string>

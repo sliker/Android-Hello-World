@@ -1,7 +1,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/action_settings"
-        android:title="@string/action_settings"
+    <item android:id="@+id/menu_add"
+        android:title="@string/menu_add_planet"
         android:orderInCategory="100"
         android:showAsAction="never" />
+
+    <item android:id="@+id/menu_config"
+          android:title="@string/menu_config_planet"
+          android:orderInCategory="200"
+          android:showAsAction="never" />
+
+    <item android:id="@+id/menu_travel"
+          android:title="@string/menu_travel_planet"
+          android:orderInCategory="300"
+          android:showAsAction="never" />
+
+    <item android:id="@+id/menu_add"
+          android:title="@string/menu_attack_planet"
+          android:orderInCategory="400"
+          android:showAsAction="never" />
+
+    <item android:id="@+id/menu_home"
+          android:title="@string/menu_home_planet"
+          android:orderInCategory="500"
+          android:showAsAction="never" />
 </menu>
 <!-- From: file:/Users/david.velasquez/AndroidStudioProjects/Hello_WorldProject/Hello_World/src/main/res/menu/main.xml -->

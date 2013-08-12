@@ -25,6 +25,27 @@ public class MainActivity extends Activity {
     private void setStartUpScreenText() {
         TextView planetNameValue = (TextView)findViewById(R.id.dataView1);
         planetNameValue.setText(earth.planetName);
+
+        TextView planetMassValue = (TextView)findViewById(R.id.dataView2);
+        planetMassValue.setText(String.valueOf(earth.planetMass));
+
+        TextView planetGravityValue = (TextView)findViewById(R.id.dataView3);
+        planetGravityValue.setText(String.valueOf(earth.planetGravity));
+
+        TextView planetColoniesValue = (TextView)findViewById(R.id.dataView4);
+        planetColoniesValue.setText(String.valueOf(earth.planetColonies));
+
+        TextView planetPopulationValue = (TextView)findViewById(R.id.dataView5);
+        planetPopulationValue.setText(String.valueOf(earth.planetPopulation));
+
+        TextView planetMilitaryValue = (TextView)findViewById(R.id.dataView6);
+        planetMilitaryValue.setText(String.valueOf(earth.planetMilitary));
+
+        TextView planetBasesValue = (TextView)findViewById(R.id.dataView7);
+        planetBasesValue.setText(String.valueOf(earth.planetBases));
+
+        TextView planetForefieldValue = (TextView)findViewById(R.id.dataView8);
+        planetForefieldValue.setText(String.valueOf(earth.planetProtection));
     }
 
 

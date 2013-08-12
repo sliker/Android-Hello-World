@@ -22,6 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.davidvu.hello_world.NewPlanet"
+            android:label="@string/title_activity_new_planet" >
+        </activity>
     </application>
 
 </manifest>

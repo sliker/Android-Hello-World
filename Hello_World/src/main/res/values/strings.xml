@@ -12,5 +12,17 @@
     <string name="planet_military_label">Planet Military: </string>
     <string name="planet_bases_label">Planet Bases: </string>
     <string name="planet_forcefield_label">Planet Forcefield: </string>
+    <string name="menu_add_planet">Add a New Planet</string>
+    <string name="menu_config_planet">Configure Planet</string>
+    <string name="menu_travel_planet">Travel to Planet</string>
+    <string name="menu_attack_planet">Attack on Planet</string>
+    <string name="menu_home_planet">Show Home Planet</string>
+    <string name="title_activity_new_planet">NewPlanetActivity</string>
+    <string name="content_desc_earth">Planet Earth</string>
+    <string name="content_desc_mars">Planet Mars</string>
+    <string name="content_desc_venus">Planet Venus</string>
+    <string name="content_desc_jupiter">Planet Jupiter</string>
+    <string name="content_desc_saturn">Planet Saturn</string>
+    <string name="content_desc_neptune">Planet Neptune</string>
 
 </resources>
