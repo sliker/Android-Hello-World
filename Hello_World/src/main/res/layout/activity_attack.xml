@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bombButton"
+            android:contentDescription="@string/content_desc_bomb"
+            android:src="@drawable/ic_launcher"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/invadeButton"
+            android:contentDescription="@string/content_desc_invade"
+            android:src="@drawable/ic_launcher"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/infectButton"
+            android:contentDescription="@string/content_desc_virus"
+            android:src="@drawable/ic_launcher"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/laserButton"
+            android:contentDescription="@string/content_desc_laser"
+            android:src="@drawable/ic_launcher"/>
+</LinearLayout>

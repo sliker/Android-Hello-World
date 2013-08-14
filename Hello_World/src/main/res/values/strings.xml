@@ -17,18 +17,24 @@
     <string name="menu_travel_planet">Travel to Planet</string>
     <string name="menu_attack_planet">Attack on Planet</string>
     <string name="menu_home_planet">Show Home Planet</string>
-    <string name="title_activity_new_planet">NewPlanetActivity</string>
     <string name="content_desc_earth">Planet Earth</string>
     <string name="content_desc_mars">Planet Mars</string>
     <string name="content_desc_venus">Planet Venus</string>
     <string name="content_desc_jupiter">Planet Jupiter</string>
     <string name="content_desc_saturn">Planet Saturn</string>
     <string name="content_desc_neptune">Planet Neptune</string>
-    <string name="title_activity_config">ConfigActivity</string>
     <string name="button_name_colonies">Add Colonies</string>
     <string name="button_name_colonist">Add Colonist</string>
     <string name="button_name_bases">Add Bases</string>
     <string name="button_name_military">Add Military</string>
     <string name="button_name_ffon">Forcefield On</string>
     <string name="button_name_ffoff">Forcefield Off</string>
+    <string name="content_desc_bomb">Bomb the Planet</string>
+    <string name="content_desc_invade">Invade the Planet</string>
+    <string name="content_desc_virus">Infect Planet with Virus</string>
+    <string name="content_desc_laser">Fire Laser at Planet</string>
+    <string name="title_activity_new_planet">Add a New Planet</string>
+    <string name="title_activity_travel_planet">Travel to Planet</string>
+    <string name="title_activity_attack_planet">Attack on Planet</string>
+    <string name="title_activity_config">ConfigActivity</string>
 </resources>

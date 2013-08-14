@@ -23,12 +23,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.davidvu.hello_world.NewPlanet"
+            android:name="com.davidvu.hello_world.NewPlanetActivity"
             android:label="@string/title_activity_new_planet" >
         </activity>
         <activity
             android:name="com.davidvu.hello_world.ConfigActivity"
             android:label="@string/title_activity_config" >
+        </activity>
+        <activity
+            android:name="com.davidvu.hello_world.TravelPlanetActivity"
+            android:label="@string/title_activity_travel_planet" >
+        </activity>
+        <activity
+                android:name="com.davidvu.hello_world.AttackPlanet"
+                android:label="@string/title_activity_attack_planet" >
         </activity>
     </application>
 
