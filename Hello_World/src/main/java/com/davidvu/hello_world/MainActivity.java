@@ -1,8 +1,10 @@
 package com.davidvu.hello_world;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
@@ -55,5 +57,29 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-    
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menu_add:
+                Intent intent_add = new Intent(this, NewPlanetActivity.class);
+                this.startActivity(intent_add);
+                break;
+            case R.id.menu_config:
+                Intent intent_config = new Intent(this, ConfigActivity.class);
+                this.startActivity(intent_config);
+                break;
+            case R.id.menu_travel:
+                Intent intent_travel = new Intent(this, TravelPlanetActivity.class);
+                this.startActivity(intent_travel);
+                break;
+            case R.id.menu_attack:
+                Intent intent_attack = new Intent(this, AttackPlanetActivity.class);
+                this.startActivity(intent_attack);
+                break;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+        return true;
+    }
 }

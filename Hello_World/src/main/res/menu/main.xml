@@ -14,7 +14,7 @@
           android:orderInCategory="300"
           android:showAsAction="never" />
 
-    <item android:id="@+id/menu_add"
+    <item android:id="@+id/menu_attack"
           android:title="@string/menu_attack_planet"
           android:orderInCategory="400"
           android:showAsAction="never" />

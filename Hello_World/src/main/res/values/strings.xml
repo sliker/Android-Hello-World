@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Hello_World</string>
+    <string name="app_name">Hello World</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="planet_name_label">Planet Name: </string>
@@ -29,12 +29,15 @@
     <string name="button_name_military">Add Military</string>
     <string name="button_name_ffon">Forcefield On</string>
     <string name="button_name_ffoff">Forcefield Off</string>
+    <string name="button_name_done">Done Configuring</string>
+    <string name="button_name_return">Return Home</string>
     <string name="content_desc_bomb">Bomb the Planet</string>
     <string name="content_desc_invade">Invade the Planet</string>
     <string name="content_desc_virus">Infect Planet with Virus</string>
     <string name="content_desc_laser">Fire Laser at Planet</string>
+    <string name="content_desc_exit">Exit to home planet</string>
     <string name="title_activity_new_planet">Add a New Planet</string>
     <string name="title_activity_travel_planet">Travel to Planet</string>
     <string name="title_activity_attack_planet">Attack on Planet</string>
-    <string name="title_activity_config">ConfigActivity</string>
+    <string name="title_activity_config">Config</string>
 </resources>
