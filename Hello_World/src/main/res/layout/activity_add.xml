@@ -6,16 +6,25 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="22dp"
     tools:context=".NewPlanetActivity">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_name_done_add"
+            android:id="@+id/doneAddingButton"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
 
     <ImageView
             android:id="@+id/imageEarth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
+            android:layout_below="@+id/doneAddingButton"
             android:layout_margin="5dp"
-            android:src="@drawable/ic_launcher"
+            android:src="@drawable/earth"
             android:contentDescription="@string/content_desc_earth"/>
     <ImageView
             android:id="@+id/imageMars"
@@ -23,7 +32,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_toRightOf="@+id/imageEarth"
-            android:src="@drawable/ic_launcher"
+            android:layout_below="@+id/doneAddingButton"
+            android:src="@drawable/mars"
             android:contentDescription="@string/content_desc_mars"/>
     <ImageView
             android:id="@+id/imageVenus"
@@ -31,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_below="@+id/imageEarth"
-            android:src="@drawable/ic_launcher"
+            android:src="@drawable/venus"
             android:contentDescription="@string/content_desc_venus"/>
     <ImageView
             android:id="@+id/imageJupiter"
@@ -40,7 +50,7 @@
             android:layout_margin="5dp"
             android:layout_toRightOf="@+id/imageVenus"
             android:layout_below="@+id/imageMars"
-            android:src="@drawable/ic_launcher"
+            android:src="@drawable/jupiter"
             android:contentDescription="@string/content_desc_jupiter"/>
     <ImageView
             android:id="@+id/imageSaturn"
@@ -48,7 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_below="@+id/imageVenus"
-            android:src="@drawable/ic_launcher"
+            android:src="@drawable/saturn"
             android:contentDescription="@string/content_desc_saturn"/>
     <ImageView
             android:id="@+id/imageNeptune"
@@ -57,7 +67,9 @@
             android:layout_margin="5dp"
             android:layout_toRightOf="@+id/imageSaturn"
             android:layout_below="@+id/imageJupiter"
-            android:src="@drawable/ic_launcher"
+            android:src="@drawable/neptune"
             android:contentDescription="@string/content_desc_neptune"/>
+
+
 
 </RelativeLayout>

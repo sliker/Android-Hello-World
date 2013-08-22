@@ -40,4 +40,5 @@
     <string name="title_activity_travel_planet">Travel to Planet</string>
     <string name="title_activity_attack_planet">Attack on Planet</string>
     <string name="title_activity_config">Config</string>
+    <string name="button_name_done_add">All Done!</string>
 </resources>
