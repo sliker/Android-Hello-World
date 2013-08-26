@@ -4,8 +4,11 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.KeyEvent;
 import android.view.Menu;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
+import android.widget.VideoView;
 
 public class TravelPlanetActivity extends Activity {
 
@@ -13,11 +16,13 @@ public class TravelPlanetActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_travel);
-        Button returnButton = (Button) findViewById(R.id.returnButton);
-        returnButton.setOnClickListener(new View.OnClickListener() {
+        VideoView travelVideo = (VideoView) findViewById(R.id.travelVideoView);
+        travelVideo.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public void onClick(View view) {
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                Toast.makeText(TravelPlanetActivity.this, "Going Home", Toast.LENGTH_LONG).show();
                 finish();
+                return true;
             }
         });
     }
