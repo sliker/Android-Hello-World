@@ -35,4 +35,5 @@
             android:id="@+id/exitButton"
             android:contentDescription="@string/content_desc_exit"
             android:src="@drawable/ic_launcher"/>
+    
 </LinearLayout>
