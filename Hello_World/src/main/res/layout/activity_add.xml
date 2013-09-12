@@ -6,15 +6,17 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:layout_marginLeft="22dp"
+    android:background="@drawable/stars"
     tools:context=".NewPlanetActivity">
 
     <TextView
             android:id="@+id/addPlanetText"
             android:textSize="22sp"
+            android:textColor="#ffffff"
             android:layout_alignBaseline="@+id/doneAddingButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
             android:text="@string/add_planet_caption" />
     <Button
             android:layout_width="wrap_content"
@@ -31,6 +33,7 @@
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/doneAddingButton"
             android:layout_margin="5dp"
+            android:layout_marginLeft="22dp"
             android:src="@drawable/earth"
             android:contentDescription="@string/content_desc_earth"/>
     <ImageView
@@ -38,6 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:layout_marginLeft="22dp"
             android:layout_toRightOf="@+id/imageEarth"
             android:layout_below="@+id/doneAddingButton"
             android:src="@drawable/mars"
@@ -47,6 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:layout_marginLeft="22dp"
             android:layout_below="@+id/imageEarth"
             android:src="@drawable/venus"
             android:contentDescription="@string/content_desc_venus"/>
@@ -55,6 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:layout_marginLeft="22dp"
             android:layout_toRightOf="@+id/imageVenus"
             android:layout_below="@+id/imageMars"
             android:src="@drawable/jupiter"
@@ -64,6 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:layout_marginLeft="22dp"
             android:layout_below="@+id/imageVenus"
             android:src="@drawable/saturn"
             android:contentDescription="@string/content_desc_saturn"/>
@@ -72,6 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:layout_marginLeft="22dp"
             android:layout_toRightOf="@+id/imageSaturn"
             android:layout_below="@+id/imageJupiter"
             android:src="@drawable/neptune"
