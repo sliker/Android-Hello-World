@@ -151,5 +151,17 @@
             android:text="@string/planet_forcefield_label"
         android:textColor="#ffffff"/>
 
+    <ImageView
+        android:id="@+id/imageEarth"
+        android:src="@drawable/earth"
+        android:background="#00000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@id/textView8"
+        android:contentDescription="@string/content_desc_earth" />
+
+
 
 </RelativeLayout>

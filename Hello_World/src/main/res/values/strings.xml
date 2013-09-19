@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Hello World</string>
+    <string name="app_name">Hello World - Home Screen</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="add_planet_caption">Click Planet to Add</string>
@@ -37,10 +37,10 @@
     <string name="content_desc_virus">Infect Planet with Virus</string>
     <string name="content_desc_laser">Fire Laser at Planet</string>
     <string name="content_desc_exit">Exit to home planet</string>
-    <string name="title_activity_new_planet">Add a New Planet</string>
-    <string name="title_activity_travel_planet">Travel to Planet</string>
-    <string name="title_activity_attack_planet">Attack on Planet</string>
-    <string name="title_activity_config">Config</string>
+    <string name="title_activity_new_planet">Hello World - Create a Planet</string>
+    <string name="title_activity_travel_planet">Hello World - Travel to Planet</string>
+    <string name="title_activity_attack_planet">Hello World - Attack a Planet</string>
+    <string name="title_activity_config">Hello World - Configure Planet</string>
     <string name="button_name_done_add">All Done!</string>
     <string name="attack_planet_caption">Select Attack Type Using Icon</string>
     <string name="attack_planet_bomb">Bomb a Planet</string>
