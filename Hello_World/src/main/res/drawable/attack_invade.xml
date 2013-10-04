@@ -3,4 +3,5 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/invadepress" android:state_pressed="true" />
     <item android:drawable="@drawable/invade" />
+    <item android:drawable="@drawable/anim_virus" android:state_selected="true" />
 </selector>

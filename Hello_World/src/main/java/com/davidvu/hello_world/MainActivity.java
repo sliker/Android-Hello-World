@@ -1,10 +1,12 @@
 package com.davidvu.hello_world;
 
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
@@ -16,7 +18,15 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         setStartUpWorldValues();
         setStartUpScreenText();
+        setStartUpAnim();
     }
+
+    private void setStartUpAnim() {
+        ImageView homePlanet = (ImageView) findViewById(R.id.imageEarth);
+        AnimationDrawable forceFieldAnimation = (AnimationDrawable) homePlanet.getBackground();
+        forceFieldAnimation.start();
+    }
+
     protected void setStartUpWorldValues() {
         earth.setPlanetColonies(1);
         earth.setPlanetMilitary(1);
