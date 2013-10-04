@@ -154,13 +154,21 @@
     <ImageView
         android:id="@+id/imageEarth"
         android:src="@drawable/earth"
-        android:background="@drawable/anim_forcefield"
+        android:background="#00000000"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="30dp"
+        android:padding="18dp"
         android:layout_below="@id/textView8"
-        android:contentDescription="@string/content_desc_earth" />
+        android:contentDescription="@string/content_desc_earth"
+        android:layout_marginLeft="1dp" />
 
+    <ImageView
+        android:id="@+id/planetEffect"
+        android:src="@drawable/anim_plasma_ring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:contentDescription="@string/content_desc_earth" />
 
 
 </RelativeLayout>

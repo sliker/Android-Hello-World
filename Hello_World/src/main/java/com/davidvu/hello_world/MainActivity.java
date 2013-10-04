@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -22,9 +24,18 @@ public class MainActivity extends Activity {
     }
 
     private void setStartUpAnim() {
-        ImageView homePlanet = (ImageView) findViewById(R.id.imageEarth);
+        /*ImageView homePlanet = (ImageView) findViewById(R.id.imageEarth);
         AnimationDrawable forceFieldAnimation = (AnimationDrawable) homePlanet.getBackground();
+        forceFieldAnimation.start();*/
+        ImageView effectPlanet = (ImageView) findViewById(R.id.planetEffect);
+
+        AnimationDrawable forceFieldAnimation = (AnimationDrawable) effectPlanet.getDrawable();
         forceFieldAnimation.start();
+
+        Animation animSetRing = AnimationUtils.loadAnimation(this, R.anim.anim_set_rign);
+        effectPlanet.startAnimation(animSetRing);
+
+
     }
 
     protected void setStartUpWorldValues() {
