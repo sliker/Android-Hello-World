@@ -108,5 +108,13 @@
                 android:layout_marginTop="10dp" android:background="#ffffff" android:alpha="0.5"
                 android:typeface="monospace" android:textStyle="bold" android:gravity="center" />
 
+        <Button
+            android:id="@+id/timeButton"
+            android:text="@string/button_name_time"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="11dp" />
     </LinearLayout>
 </LinearLayout>

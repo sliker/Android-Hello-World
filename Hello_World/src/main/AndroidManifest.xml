@@ -35,8 +35,12 @@
             android:label="@string/title_activity_travel_planet" >
         </activity>
         <activity
-                android:name="com.davidvu.hello_world.AttackPlanetActivity"
-                android:label="@string/title_activity_attack_planet" >
+            android:name="com.davidvu.hello_world.AttackPlanetActivity"
+            android:label="@string/title_activity_attack_planet" >
+        </activity>
+        <activity
+            android:name="com.davidvu.hello_world.TimePlanetActivity"
+            android:label="@string/title_activity_time_planet" >
         </activity>
     </application>
 

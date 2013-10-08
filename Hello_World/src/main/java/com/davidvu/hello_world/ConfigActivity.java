@@ -1,5 +1,7 @@
 package com.davidvu.hello_world;
 
+import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.KeyEvent;
@@ -11,10 +13,15 @@ import android.widget.TextView;
 
 public class ConfigActivity extends Activity {
 
+    private MediaPlayer clickPlayer = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_config);
+
+        clickPlayer = MediaPlayer.create(getApplicationContext(), R.raw.click);
+
         EditText colonyText = (EditText) findViewById(R.id.editTextColonies);
         colonyText.setText("1", TextView.BufferType.EDITABLE);
         EditText colonistText = (EditText) findViewById(R.id.editTextColonist);
@@ -31,6 +38,7 @@ public class ConfigActivity extends Activity {
         doneButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                clickPlayer.start();
                 finish();
             }
         });
@@ -38,6 +46,7 @@ public class ConfigActivity extends Activity {
         colonyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                clickPlayer.start();
                 finish();
             }
         });
@@ -45,6 +54,7 @@ public class ConfigActivity extends Activity {
         colonistButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                clickPlayer.start();
                 finish();
             }
         });
@@ -52,6 +62,7 @@ public class ConfigActivity extends Activity {
         baseButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                clickPlayer.start();
                 finish();
             }
         });
@@ -59,6 +70,7 @@ public class ConfigActivity extends Activity {
         militaryButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                clickPlayer.start();
                 finish();
             }
         });
@@ -66,6 +78,7 @@ public class ConfigActivity extends Activity {
         forceFieldOnButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                clickPlayer.start();
                 finish();
             }
         });
@@ -73,7 +86,16 @@ public class ConfigActivity extends Activity {
         forceFieldOffButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                clickPlayer.start();
                 finish();
+            }
+        });
+        Button timeButton = (Button) findViewById(R.id.timeButton);
+        timeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent callTimeIntent = new Intent(view.getContext(), TimePlanetActivity.class);
+                startActivityForResult(callTimeIntent, 0);
             }
         });
     }

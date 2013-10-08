@@ -2,6 +2,7 @@ package com.davidvu.hello_world;
 
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -21,7 +22,15 @@ public class MainActivity extends Activity {
         setStartUpWorldValues();
         setStartUpScreenText();
         setStartUpAnim();
+        setStartUpScreenAudio();
     }
+
+    private void setStartUpScreenAudio() {
+        MediaPlayer audioPlayer = MediaPlayer.create(getApplicationContext(), R.raw.ambient);
+        audioPlayer.setLooping(true);
+        audioPlayer.start();
+    }
+
 
     private void setStartUpAnim() {
         /*ImageView homePlanet = (ImageView) findViewById(R.id.imageEarth);

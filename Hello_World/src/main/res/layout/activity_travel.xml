@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
              android:layout_width="match_parent"
-             android:layout_height="match_parent">
+             android:layout_height="match_parent" android:background="#FFDDBB">
 
 
     <VideoView
+        android:layout_below="@+id/travelButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/travelVideoView"
@@ -14,4 +18,15 @@
             android:longClickable="true"
             android:keepScreenOn="true"/>
 
-</FrameLayout>
+    <Button android:id="@+id/travelButton"
+        android:text="@string/travel_button_caption"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#000000"
+        android:textSize="26sp"
+        android:textColor="#FFDDBB"
+        android:layout_margin="4dp" />
+
+</RelativeLayout>
