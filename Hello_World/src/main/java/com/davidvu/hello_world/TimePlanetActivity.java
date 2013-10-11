@@ -1,7 +1,9 @@
 package com.davidvu.hello_world;
 
+import android.annotation.TargetApi;
 import android.content.Intent;
 import android.graphics.drawable.TransitionDrawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -11,6 +13,7 @@ import android.widget.LinearLayout;
 
 public class TimePlanetActivity extends Activity {
 
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +31,22 @@ public class TimePlanetActivity extends Activity {
                 Intent returnIntent = new Intent();
                 setResult(RESULT_OK, returnIntent);
                 finish();
+            }
+        });
+
+        Button startMusicServiceButton = (Button) findViewById(R.id.startServiceButton);
+        startMusicServiceButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startService(new Intent(TimePlanetActivity.this, MusicService.class));
+            }
+        });
+
+        Button stopMusicServiceButton = (Button) findViewById(R.id.stopServiceButton);
+        stopMusicServiceButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                stopService(new Intent(TimePlanetActivity.this, MusicService.class));
             }
         });
     }
