@@ -55,4 +55,11 @@
     <string name="button_name_time">Atomic Clock</string>
     <string name="start_button_value">Start Music Service</string>
     <string name="stop_button_value">Stop Music Service</string>
+    <string name="timer_hint_value">Enter Number of Seconds</string>
+    <string name="timer_button_value">Start Timer Countdown</string>
+    <string name="title_activity_alien_contact">Hello World - Alien contacts</string>
+    <string name="find_alien_button_value">List Aliens in this Galaxy</string>
+    <string name="add_spock_button_value">Add Spock to my Alliance</string>
+    <string name="add_worf_button_value">Add Worf to my Alliance</string>
+    <string name="menu_contact_planet">Make Alien Contact</string>
 </resources>

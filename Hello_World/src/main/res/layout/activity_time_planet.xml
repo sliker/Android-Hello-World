@@ -19,6 +19,28 @@
         android:layout_marginTop="20dp"
         android:layout_gravity="center" />
 
+    <EditText
+        android:id="@+id/setAlarm"
+        android:hint="@string/timer_hint_value"
+        android:inputType="numberDecimal"
+        android:ems="12"
+        android:alpha="0.75"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:typeface="monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/startCounter"
+        android:textColor="#FFCCAA"
+        android:text="@string/timer_button_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
     <TextView
         android:text="@string/time_caption_value"
         android:textColor="#FFCCAA"
@@ -33,7 +55,6 @@
         android:textColor="#FFCCAA"
         android:text="@string/time_button_value"
         android:layout_marginTop="20dp"
-        android:gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal" />
